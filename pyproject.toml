@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codefile"
+dynamic = ["version"]
+description = "A CLI tool to bundle entire projects into a single AI-friendly context file."
+authors = [
+    { name = "Nolan Stark" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+keywords = [
+    "ai", "claude", "chatgpt", "gemini", "grok",
+    "codefile", "llm", "context", "prompt-engineering",
+    "bundler", "devtools", "pack"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+codefile = "codefile:main"
+
+[tool.setuptools.dynamic]
+version = {file = "src/config/version.txt"}
+
+[tool.setuptools]
+py-modules = ["codefile"]
+
+[tool.setuptools.package-dir]
+"" = "src"
