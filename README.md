@@ -1,6 +1,11 @@
 # codefile
 
 [![PyPI version](https://badge.fury.io/py/codefile.svg)](https://badge.fury.io/py/codefile)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python Versions](https://img.shields.io/pypi/pyversions/codefile.svg)](https://pypi.org/project/codefile/)
+[![GitHub stars](https://img.shields.io/github/stars/sapirrior/codefile.svg)](https://github.com/sapirrior/codefile/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/sapirrior/codefile.svg)](https://github.com/sapirrior/codefile/network)
+[![Downloads](https://static.pepy.tech/badge/codefile)](https://pepy.tech/project/codefile)
 
 A CLI tool that bundles an entire project directory into a single, structured text file — purpose-built for feeding codebases to LLMs like Claude, ChatGPT, Gemini, and Grok.
 
