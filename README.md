@@ -1,5 +1,7 @@
 # codefile
 
+[![PyPI version](https://badge.fury.io/py/codefile.svg)](https://badge.fury.io/py/codefile)
+
 A CLI tool that bundles an entire project directory into a single, structured text file — purpose-built for feeding codebases to LLMs like Claude, ChatGPT, Gemini, and Grok.
 
 ---
