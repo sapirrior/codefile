@@ -125,4 +125,4 @@ Ignored directories are pruned immediately during the walk, so large folders lik
 
 ## License
 
-MIT
+Apache-2.0
