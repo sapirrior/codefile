@@ -37,7 +37,7 @@ Your `.gitignore` rules are respected. The `.git` folder is always excluded.
 **Pack the current directory:**
 
 ```
-codefile
+codefile --create
 ```
 
 **Pack a specific directory:**
