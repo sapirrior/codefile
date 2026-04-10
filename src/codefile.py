@@ -9,7 +9,7 @@ from pathlib import Path
 IO_CHUNK         = 65536
 BINARY_THRESHOLD = 8192
 OUT_DEFAULT      = "CodeFile.txt"
-VERSION          = "27.0.0"
+VERSION          = "26.0.3"
 CREATOR          = "Nolan Stark (sapirrior)"
 
 _orangex = "\033[38;5;173m"
